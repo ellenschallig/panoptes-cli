@@ -267,14 +267,14 @@ $ panoptes subject-set ls -w 1579
 ### Retire subjects in a workflow
 
 ```
-# for known subjects with ids 2001, 2001 and workflow with id 101
+# for known subjects with ids 2001, 2002 and workflow with id 101
 $ panoptes workflow retire-subjects 101 2001 2002
 ```
 
 ### Un-Retire subjects in a workflow
 
 ```
-# for known subjects with ids 2001, 2001 and workflow with id 101
+# for known subjects with ids 2001, 2002 and workflow with id 101
 $ panoptes workflow unretire-subjects 101 2001 2002
 ```
 
